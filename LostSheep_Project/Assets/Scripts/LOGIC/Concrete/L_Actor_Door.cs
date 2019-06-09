@@ -16,8 +16,8 @@ namespace GameLogic{
 
 		int m_LayerMask;
 		protected override void Birth (){
-			m_Enter = transform.FindChild ("Enter");
-			m_Exit = transform.FindChild ("Exit");
+			m_Enter = transform.Find ("Enter");
+			m_Exit = transform.Find ("Exit");
 			m_LayerMask = 1 << LayerMask.NameToLayer ("Character");
 
 			m_Enter.GetComponent<Renderer> ().enabled = false;

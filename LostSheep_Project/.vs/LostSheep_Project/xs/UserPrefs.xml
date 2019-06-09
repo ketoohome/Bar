@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{79246ADF-F628-37BA-79A6-F446509FA134}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs">
+    <Files>
+      <File FileName="Assets/Scripts/LOGIC/L_Character.cs" Line="2" Column="1" />
+      <File FileName="Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/AICharacterControl.cs" Line="3" Column="22" />
+      <File FileName="Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs" Line="91" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -17,9 +17,9 @@ namespace GameLogic{
 		public Transform WinePos{ get{return m_Wine_Position;}}		// Wine   位置
 		int m_LayerMask;
 		protected override void Birth (){
-			m_Barman_Seat = transform.FindChild("Barman_Seat");
-			m_Drinker_Seat = transform.FindChild("Drinker_Seat");
-			m_Wine_Position = transform.FindChild ("Wine_Position");
+			m_Barman_Seat = transform.Find("Barman_Seat");
+			m_Drinker_Seat = transform.Find("Drinker_Seat");
+			m_Wine_Position = transform.Find ("Wine_Position");
 			m_LayerMask = 1 << LayerMask.NameToLayer ("Character");
 
 			m_Barman_Seat.GetComponent<Renderer> ().enabled = false;

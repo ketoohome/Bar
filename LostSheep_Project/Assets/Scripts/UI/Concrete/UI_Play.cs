@@ -15,7 +15,7 @@ namespace GameUI{
 
 		void OnAddMoney(params object[] args){
 			int money = (int)args[0];
-			transform.FindChild("Money").GetComponent<Text>().text = "$:" + money;
+			transform.Find("Money").GetComponent<Text>().text = "$:" + money;
 		}
 	}
 }
